@@ -59,6 +59,7 @@ const calcFinalPrice = (cartTotal,couponValue,tax)=>{
     const totaAfterCoupon = totalWithTax - couponValue
     return totaAfterCoupon
 }
+console.log( calcFinalPrice(summedPrice, 3 , .06) )
 
 //////////////////PROBLEM 3////////////////////
 /*  
@@ -101,6 +102,6 @@ const customer = {
     firstName:'',
     lastName:'',
     email:'',
-    phone:0,
+    phone:'',
     address:''
 }
